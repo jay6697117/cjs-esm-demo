@@ -11,5 +11,12 @@
 // console.log(`fooo:`, fooo);
 // import './module.js';
 
-import * as demo from './demo.mjs';
-console.log(`demo:`, demo);
+// import foo2, { foo, foo1 } from './demo.mjs';
+// console.log(`foo 000:`, foo);
+// console.log(`foo1 000:`, foo1);
+// console.log(`foo2 000:`, foo2);
+
+// import foo2, { foo, foo1 } from './demo.mjs';
+// export default { foo, foo1, foo2 };
+
+export { foo, foo1, foo2 as default } from './demo.mjs';

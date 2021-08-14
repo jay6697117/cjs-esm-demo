@@ -15,15 +15,22 @@
 
 // module.exports = function test() {}; // function test(){}
 
-const a = 123;
+// const a = 123;
 
 export function foo() {
   console.log('i am function, named foo!');
 }
 
 function foo1() {
-  console.log('i am function, named foo!');
+  console.log('i am function, named foo1!');
 }
-
 export { foo1 };
 // export { a as a1, foo as foo1};
+// export default function foo2() {
+//   console.log('i am function, named foo2!');
+// }
+
+export function foo2() {
+  console.log('i am function, named foo2!');
+}
+// export default 123456;
